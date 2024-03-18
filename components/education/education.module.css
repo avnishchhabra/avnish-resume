@@ -1,0 +1,66 @@
+.educationCont {
+  padding: 16px;
+}
+
+.companyCont {
+  margin-top: 20px;
+  gap: 16px;
+}
+
+.leftIndicator {
+  flex: 1.5%;
+  height: 2px;
+  width: 8px;
+  background-color: black;
+  margin-top: 12px;
+}
+
+.rightContent {
+  flex: 98.5%;
+}
+
+.degree {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.institution {
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 4px;
+}
+
+.duration {
+  color: #595667;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 6px;
+}
+
+.percentage {
+  color: #595667;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 2px;
+}
+
+@media screen and (min-width: 1200px) {
+  .educationCont {
+    /* padding: 24px;
+    max-width: var(--maxWidth);
+    margin: 0 auto; */
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .degree {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .institution {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

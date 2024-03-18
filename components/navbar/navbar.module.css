@@ -1,0 +1,51 @@
+.navCont {
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.08);
+}
+
+.left {
+  gap: 8px;
+}
+
+.right {
+  color: #36353a;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link {
+  color: #36353a;
+}
+
+@media screen and (min-width: 1200px) {
+  .navbar {
+    padding: 24px;
+    max-width: var(--maxWidth);
+    margin: 0 auto;
+  }
+  .left {
+    gap: 20px;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .left {
+    display: none;
+  }
+
+  .menu {
+    scale: 0.5;
+  }
+
+  .navbar {
+    padding: 24px;
+    justify-content: center;
+  }
+}

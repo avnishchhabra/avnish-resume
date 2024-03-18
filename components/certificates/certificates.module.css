@@ -1,0 +1,48 @@
+.educationCont {
+  padding: 16px;
+}
+
+.companyCont {
+  margin-top: 20px;
+  gap: 16px;
+}
+
+.leftIndicator {
+  flex: 1.5%;
+  height: 2px;
+  width: 8px;
+  background-color: black;
+  margin-top: 12px;
+}
+
+.rightContent {
+  flex: 98.5%;
+}
+
+.degree {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.institution {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.duration {
+  color: #595667;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 2px;
+}
+
+.name {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.organisation {
+  font-size: 14px;
+  line-height: 18px;
+}

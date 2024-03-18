@@ -1,0 +1,38 @@
+.contactDetails {
+    background-color: #00232B;
+    padding: 24px;
+    color: #ffffff;
+}
+
+.inner {
+    max-width: var(--maxWidth);
+    margin: 0 auto;
+    display: grid;
+    row-gap: 10px;
+}
+
+.item {
+    gap: 6px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.item svg {
+    scale: 0.8;
+}
+
+@media screen and (min-width: 1200px) {
+    .inner {
+        max-width: var(--maxWidth);
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 10px;
+    }   
+
+    .item {
+        gap: 8px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
