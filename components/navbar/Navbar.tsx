@@ -1,21 +1,15 @@
 "use client";
 
-import html2canvas from "html2canvas";
-import jsPDF from "jspdf";
 import Link from "next/link";
 import styles from "./navbar.module.css";
 
 const Navbar = () => {
   const handleDownload = () => {
-    const resume: any = document.querySelector(".resume");
-    html2canvas(resume).then((canvas: any) => {
-      const imgData = canvas.toDataURL("img/png");
-      const pdf = new jsPDF("p", "mm", "a4");
-      const pdfWidth = pdf.internal.pageSize.getWidth();
-      const pdfHeight = pdf.internal.pageSize.getHeight();
-      pdf.addImage(imgData, "PNG", 0, 0, pdfWidth, pdfHeight);
-      pdf.save("resume.pdf");
-    });
+    var link = document.createElement("a");
+    link.download = "Avnish_Frontend.pdf";
+    link.href = "Avnish_Frontend.pdf";
+    document.body.appendChild(link);
+    link.click();
   };
 
   const handleMenuOpen = () => {};
