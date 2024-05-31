@@ -8,12 +8,12 @@ const Hero = () => {
         <h1 className={styles.heading}>Avnish Chhabra</h1>
         <p className={styles.position}>Frontend Developer</p>
         <p className={styles.description}>
-          I am a React JS / Next JS developer with 3.5+ years experience who can
-          turn complex ideas into functional web applications, using my
-          knowledge of the latest trends in frontend development to create
-          responsive, user-friendly interfaces that meet the needs of modern
-          digital consumers. I am passionate about writing clean, modular, and
-          maintainable code, following industry-standard coding practices.
+          I am a frontend developer who can turn complex ideas into functional
+          web applications, using my knowledge of the latest trends in frontend
+          development to create responsive, user-friendly interfaces that meet
+          the needs of modern digital consumers. I am passionate about writing
+          clean, modular, and maintainable code, following industry-standard
+          coding practices.
         </p>
       </div>
     </div>

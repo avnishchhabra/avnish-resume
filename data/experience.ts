@@ -83,33 +83,33 @@ export const experiences = [
     startDate: "04/2021",
     endDate: "04/2022",
   },
-  {
-    company: "OkieDokie Pay",
-    achievements: [
-      {
-        achievement:
-          "Created reusable React components for various UI elements in the School Information System module (SIS) of ODERP",
-        projectName: "",
-      },
-      {
-        achievement:
-          "Integrated react components with RESTful APIs of Attendance, Exams, Events and Books.",
-        projectName: "",
-      },
-      {
-        achievement:
-          "Implemented responsive design to ensure optimal user experience across different devices.",
-        projectName: "",
-      },
-      {
-        achievement:
-          "Utilized Redux for state management to maintain a consistent application state.",
-        projectName: "",
-      },
-    ],
-    position: "Jr. Software Engineer",
-    location: "Remote",
-    startDate: "04/2020",
-    endDate: "03/2021",
-  },
+  // {
+  //   company: "OkieDokie Pay",
+  //   achievements: [
+  //     {
+  //       achievement:
+  //         "Created reusable React components for various UI elements in the School Information System module (SIS) of ODERP",
+  //       projectName: "",
+  //     },
+  //     {
+  //       achievement:
+  //         "Integrated react components with RESTful APIs of Attendance, Exams, Events and Books.",
+  //       projectName: "",
+  //     },
+  //     {
+  //       achievement:
+  //         "Implemented responsive design to ensure optimal user experience across different devices.",
+  //       projectName: "",
+  //     },
+  //     {
+  //       achievement:
+  //         "Utilized Redux for state management to maintain a consistent application state.",
+  //       projectName: "",
+  //     },
+  //   ],
+  //   position: "Jr. Software Engineer",
+  //   location: "Remote",
+  //   startDate: "04/2020",
+  //   endDate: "03/2021",
+  // },
 ];

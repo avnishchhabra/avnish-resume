@@ -13,7 +13,7 @@ const inter_font = Inter({
 export const metadata = {
   title: "Avnish Chhabra",
   description:
-    "Full stack developer who makes responsive user friendly full stack web applications",
+    "Frontend developer who makes responsive user friendly web applications",
 };
 
 export default function RootLayout({

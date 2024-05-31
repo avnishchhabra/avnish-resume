@@ -7,7 +7,7 @@ const Experience = () => {
   return (
     <div className={`${styles.experienceCont}`} id="experience">
       <div>
-        <Heading text="Work Experience (3.5+ Years) " />
+        <Heading text="Work Experience" />
       </div>
       <div className={`${styles.allExperiences}`}>
         {experiences.map(

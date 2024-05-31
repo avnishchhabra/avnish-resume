@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import styles from "./navbar.module.css";
 
 const Navbar = () => {
@@ -12,26 +11,29 @@ const Navbar = () => {
     link.click();
   };
 
-  const handleMenuOpen = () => {};
+  const scrollTo = (id: any) => {
+    const element = document.getElementById(id);
+    element?.scrollIntoView({ behavior: "smooth", block: "center" });
+  };
   return (
     <div className={styles.navCont}>
       <div className={`flex j-between ${styles.navbar}`}>
         <div className={`flex a-center ${styles.left}`}>
-          <Link className={styles.link} href="#about">
+          <p className={styles.link} onClick={() => scrollTo("about")}>
             About
-          </Link>
-          <Link className={styles.link} href="#contact">
+          </p>
+          <p className={styles.link} onClick={() => scrollTo("contact")}>
             Contact
-          </Link>
-          <Link className={styles.link} href="#skills">
+          </p>
+          <p className={styles.link} onClick={() => scrollTo("skills")}>
             Skills
-          </Link>
-          <Link className={styles.link} href="#experience">
+          </p>
+          <p className={styles.link} onClick={() => scrollTo("experience")}>
             Experience
-          </Link>
-          <Link className={styles.link} href="#education">
+          </p>
+          <p className={styles.link} onClick={() => scrollTo("education")}>
             Education
-          </Link>
+          </p>
         </div>
         {/* <Menu className={styles.menu} onClick={handleMenuOpen} /> */}
         <div
